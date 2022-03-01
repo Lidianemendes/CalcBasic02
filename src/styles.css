@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: border-box;
+}
+body {
+  background-color: rgb(30, 203, 255);
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  height: 9vh;
+  display: flex;
+  color: rgb(155, 68, 149);
+  justify-content: center;
+}
+h2 {
+  color: rgb(156, 106, 129);
+  margin: 4vh 43vw;
+}
+.inputs {
+  display: flex;
+  width: 90vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 12px;
+  padding: 3px;
+  margin-top: 20px;
+  margin: 10vh 20vw;
+  background-color: blueviolet;
+}
